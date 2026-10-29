@@ -1,0 +1,11 @@
+{
+    "mask": {
+        "roiy": 300,
+        "minx": 300,
+        "maxx": 500,
+        "miny": 200,
+        "maxy": 400
+    },
+    "prompt" : "a realistic bicycle lying on the ground",
+    "negative": ""
+}

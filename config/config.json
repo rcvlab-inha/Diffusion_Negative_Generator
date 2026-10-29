@@ -1,0 +1,22 @@
+{
+    "gen_info": {
+        "max_obj": 5,
+        "max_try": 5,
+        "blur_radius": 5,
+        "min_ratio": 0.05,
+        "max_ratio": 0.95
+    },
+
+    "SEED": 1234,
+    "REF_SIZE": [1280, 800],
+    "DEVICE": "cuda:3",
+    "MODEL_ID": "black-forest-labs/FLUX.1-Fill-dev",
+    "continued": false,
+    "tgt_obj": "bicycle",
+    
+    "img_pth": "./test/images",
+    "save_pth": "./test/results",
+    "mask_pth": "./test/masks",
+    "sam_mask_pth": "./test/sam_masks",
+    "log_dir": "./logs"
+}
